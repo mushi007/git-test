@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*html, body {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*overflow: auto;*/
+/*}*/
+
+.touch {
+    height: 3000px;
+    /*border-top: 100px solid red;*/
+    /*padding-top: 200px;*/
+    /*box-sizing: border-box;*/
+}
+
+.touch-son{
+    height: 300px;
+}
+
+.touch-son:nth-child(2n){
+    background: #0f0;
+}
+
+.hold-bottom {
+    height: 200px;
+}

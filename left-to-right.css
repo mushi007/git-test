@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+.slide-father{
+    overflow: hidden;
+}
+.slide-son{
+    display: none;
+    width: 100%;
+    height: 375px;
+}
+.slide-son.active{
+    display: block;
+}
+.slide-son:nth-child(1){
+    background: red;
+}
+.slide-son:nth-child(2){
+    background: green;
+}
+.slide-son:nth-child(3){
+    background: blue;
+}
